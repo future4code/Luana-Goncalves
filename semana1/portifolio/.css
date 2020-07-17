@@ -1,0 +1,56 @@
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	color: #507099 ;
+	text-shadow: 1px 1px gray
+
+}
+
+body {
+	background-color: #ADD8E6;
+}
+.bloco-branco {
+	width: 40em;
+	height: 25em;
+	background-color: white;
+    color: black;
+    position: relative;
+    left: 50%;
+
+
+}
+
+#texto {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	text-align: left;
+	position: relative;
+	top: 36%;
+	left: 20%;
+
+}
+
+#bloco-azul {
+	width: 2em;
+	height: 2em;
+	background-color: #ADD8E6;
+	position: relative;
+	top: 3%;
+	left: 10%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+
+#sobre-mim {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	color: #E0FFFF;
+	text-shadow: 1px 1px white;
+	position: relative;
+	left: 50%;
+
+	
+	}
