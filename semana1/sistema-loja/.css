@@ -1,0 +1,25 @@
+body { background-color:#FFF5EE;
+}
+
+p{
+	font-size:120%;
+	text-align: center;
+	color: #483D8B;
+
+}
+.footer{
+	  padding: 0,1%;
+	  height: 5vh;
+	 width: 0,1%;
+	 text-align: center;
+}
+
+.links{
+	background-color: #E6E6FA; 
+	margin: 1px 1px 1px 1px;
+	text-align: center;
+}
+.home{
+	text-align: center;
+	color:#483D8B;
+}
