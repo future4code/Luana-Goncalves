@@ -107,11 +107,15 @@ table {
 }
 
 td button {
-    background-color: #fadf63;
+    background-color: #facf63;
     width: 150px;
     height: 30px;
     border-radius: 5px;
     color: black;
+}
+td button:hover {
+  color: white;
+  background-color: #f2ae57;  
 }
 
 .container-do-search {
@@ -131,5 +135,5 @@ td button {
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: #635a3d;
 }
