@@ -66,9 +66,13 @@ div img {
   *
   **/
 
+
+
+
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    text-align: center;
 }
 
 #container-de-descricao>ol {
@@ -99,6 +103,7 @@ div:last-child {
 
 table {
     width: 60%;
+    text-align: center;
 }
 
 td button {
