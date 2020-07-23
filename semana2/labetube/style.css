@@ -7,16 +7,60 @@ body {
 
 
 
-#laranja {
+h1 {
     background-color: orange;
     width: 100vw;
     height: 80px;
     border: 1px solid black;
 
 }
+
+#videos {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+   
+
+}
 .media1 {
-	width: 200px;
-	height: 80px;
+	
+	margin:2px;
+
+}
+
+.media2 {
+	
+
+
+}
+.media3 {
+
+
+
+}
+.media4 {
+
+
+}
+.media5 {
+	
+
+}
+.media6 {
+	
+
+
+}
+.media7 {
+;
+
+
+}
+.media8 {
+	
 
 
 }
