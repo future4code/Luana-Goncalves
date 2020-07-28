@@ -30,6 +30,7 @@ resto = par%2
 console.log (resto)*/ 
 /* Se o número é impar o resultado é 2*/
 
+/*3
 let listaDeTarefas = []
 let pergunta1 = prompt("1- Cite uma tarefa do seu dia")
 let pergunta2 = prompt("2- Cite mais uma tarefa do seu dia")
@@ -38,9 +39,18 @@ listaDeTarefas.push(pergunta1)
 listaDeTarefas.push(pergunta2)
 listaDeTarefas.push(pergunta3)
 console.log(listaDeTarefas)
-let remover = prompt("Entre 1, 2 e 3. Qual tarefa você já realizou?")
-listaDeTarefas.splice(remover, 1)
-console.log(listaDeTarefas)
+let i = prompt("Entre 0, 1 e 2. Qual tarefa você já realizou?")
+listaDeTarefas.splice(Number(i), 1)
+console.log(listaDeTarefas)*/
+
+/*4*/
+let emailDoUsuario = prompt("Qual seu e-mail?")
+let nomeDoUsuario = prompt("Qual seu nome de usuário")
+console.log("O e-mail", emailDoUsuario, "foi cadastrado com sucesso. Seja bem-vinda(o),",nomeDoUsuario  )
+
+
+
+
 
 
 
