@@ -25,25 +25,27 @@ const cartas = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"
 const naipes = ["♦️", "♥️", "♣️", "♠️"]
 
 
-for (valor of cartas) {
- 
-}
-
-for ( naipe of naipes) {
-  
-}
-
-if (cartas === "A") {
+for (valor = 0; valor <= cartas.length; valor++) {
+    if (cartas === "A") {
     valor = 11
   } else if (cartas === "J" || cartas === "Q" || cartas === "K") {
     valor = 10
-  } else{ 
-    valor = Number(valor)
   }
- 
+  
  
 
-console.log(valor, naipe)
+}
+
+
+for ( naipe of naipes) {
+	console.log(valor, naipe)
+  
+}
+
+
+ 
+
+
   
 
 const carta = comprarCarta() 
