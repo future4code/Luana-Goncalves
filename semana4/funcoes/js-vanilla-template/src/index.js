@@ -84,3 +84,35 @@
 // const profs = ["chijo", "paulinha", "sot", "caio", "severo"]
 
 // const tamanhoDoArray = verificaTamanhoDoArray(profs)
+
+
+//EXERCÍCIO 1
+//A- 10 
+//   50
+//B- Não vai imprimir no console
+
+//EXERCÍCIO 2
+//A- Será impresso o eletmeto 0 e 1 do arrayDeNomes
+//B- Amanda, Caio
+
+//EXERCÍCIO 3
+
+
+//EXERCÍCIO 4
+ 
+/*A
+function infomacoes1() {
+	console.log("Meu nome é Luana, moro em São Paulo e sou estudante.")
+
+}
+
+B-
+
+let nome = ["Luana"]
+let idade = [27]
+let cidade = ["São Paulo"]
+let estudade = true
+function infomacoes1() {
+	console.log("Meu nome é ", nome , "moro em ",cidade, " e sou " estudante)
+
+}
