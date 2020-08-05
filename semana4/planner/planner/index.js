@@ -6,7 +6,7 @@ function adicionarItem() {
 	const dias = document.getElementById("dias-semana")
 	let diasSemana = dias.value
 	
-}
+
 	switch(diasSemana){
 		case"domingo":
 		const domingo = document.getElementById("domingo")
@@ -51,7 +51,7 @@ function adicionarItem() {
 		break
 	}
 	
-		
+}	
 
 
 
