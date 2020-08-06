@@ -15,6 +15,20 @@ const post = {
 	conteudo: conteudoPost,
 }
 
+
+function adicionaPost() {
+     const container = document.getElementById("container-de-posts")
+     container.innerHTML += `<p>${tituloPost.value}, ${autorPost.value}, ${conteudoPost.value}</p>`
+     texto.value = ""
+ }
+
+
+
+ 
+ function apertarBotao(evento){
+     console.log(evento)
+     adicionaPost()
+ }
 const arrayPosts = []
 arrayPosts.push(post)
 
@@ -32,16 +46,7 @@ conteudoPost.value = ""
 }
 
 
- function adicionaPost() {
-     const container = document.getElementById("container-de-posts")
-     container.innerHTML += `<p>${arrayPosts.value}</p>`
-     texto.value = ""
- }
 
- function apertarBotao(evento){
-     console.log(evento)
-     adicionaPost()
- }
 
  
 
