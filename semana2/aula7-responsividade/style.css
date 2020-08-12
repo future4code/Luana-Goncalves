@@ -65,3 +65,10 @@ div {
     height: 80px;
     margin: 8px;
 }
+
+
+@media screen and (min-device-width:320px) and (max-device-width: 420px){
+    
+}
+
+
